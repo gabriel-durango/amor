@@ -1,0 +1,57 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    background-image: url(flores-de-cerezo-4625.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1
+{
+    position: absolute;
+    top: 170px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 2.9rem;
+    color: rgba(255, 255, 255, 0.822);
+}
+
+button 
+{
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    background-color: #ed93f5;
+    box-shadow: #000000 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+}
+
+button:hover 
+{
+    letter-spacing: 3px;
+    background-color: palevioletred;
+    color: #fff;
+    box-shadow: palevioletred 0px 7px 29px 0px;
+}
+
+button:active
+{
+    letter-spacing: 3px;
+    background-color: palevioletred;
+    color: #fff;
+    box-shadow: palevioletred 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+    
+}
